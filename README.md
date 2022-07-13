@@ -11,58 +11,60 @@ A regra para um campeão A receber dano de outro campeão B é a seguinte:
 quantidade de armadura do campeão A. A quantidade de vida resultante não pode ser menor que zero.
 2) Independente da quantidade de armadura do campeão A, pelo menos 1 de vida o campeão A deve perder.
 
-Você deve criar uma classe para representar o campeão.
+Você deve criar uma classe para representar o campeão.<br/>
 O método takeDamage serve para fazer com que o campeão receba dano advindo do ataque de outro campeão,
-conforme regras acima.
+conforme regras acima.<br/>
 O método status deve retornar o nome e a situação de vida do campeão (inclusive com a palavra "morreu" se
-a vida estiver a zero), conforme exemplos.
+a vida estiver a zero), conforme exemplos.<br/>
 
-EXEMPLO 1:
-Digite os dados do primeiro campeão:
-Nome: Darius
-Vida inicial: 50
-Ataque: 8
-Armadura: 1
+**EXEMPLO 1:**
 
-Digite os dados do segundo campeão:
-Nome: Fiora
-Vida inicial: 40
-Ataque: 10
-Armadura: 2
+Digite os dados do primeiro campeão:<br/>
+Nome: Darius<br/>
+Vida inicial: 50<br/>
+Ataque: 8<br/>
+Armadura: 1<br/>
+
+Digite os dados do segundo campeão:<br/>
+Nome: Fiora<br/>
+Vida inicial: 40<br/>
+Ataque: 10<br/>
+Armadura: 2<br/>
 
 Quantos turnos você deseja executar? 2
 
-Resultado do turno 1:
-Darius: 41 de vida
-Fiora: 34 de vida
+Resultado do turno 1:<br/>
+Darius: 41 de vida<br/>
+Fiora: 34 de vida<br/>
 
-Resultado do turno 2:
-Darius: 32 de vida
-Fiora: 28 de vida
+Resultado do turno 2:<br/>
+Darius: 32 de vida<br/>
+Fiora: 28 de vida<br/>
 
-FIM DO COMBATE
+**FIM DO COMBATE**
 
-EXEMPLO 2:
-Digite os dados do primeiro campeão:
-Nome: Darius
-Vida inicial: 50
-Ataque: 8
-Armadura: 1
+**EXEMPLO 2:**
 
-Digite os dados do segundo campeão:
-Nome: Fiora
-Vida inicial: 40
-Ataque: 30
-Armadura: 10
+Digite os dados do primeiro campeão:<br/>
+Nome: Darius<br/>
+Vida inicial: 50<br/>
+Ataque: 8<br/>
+Armadura: 1<br/>
+
+Digite os dados do segundo campeão:<br/>
+Nome: Fiora<br/>
+Vida inicial: 40<br/>
+Ataque: 30<br/>
+Armadura: 10<br/>
 
 Quantos turnos você deseja executar? 4
 
-Resultado do turno 1:
-Darius: 21 de vida
-Fiora: 39 de vida
+Resultado do turno 1:<br/>
+Darius: 21 de vida<br/>
+Fiora: 39 de vida<br/>
 
-Resultado do turno 2:
-Darius: 0 de vida (morreu)
-Fiora: 38 de vida
+Resultado do turno 2:<br/>
+Darius: 0 de vida (morreu)<br/>
+Fiora: 38 de vida<br/>
 
-FIM DO COMBATE
+**FIM DO COMBATE**
